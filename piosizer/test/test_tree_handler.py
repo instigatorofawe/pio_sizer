@@ -26,7 +26,8 @@ class MyTestCase(unittest.TestCase):
         solver.exit()
 
     def test_get_ev(self):
-        pass
+        solver_path = r'F:\Piosolver\PioSOLVER2-pro.exe'
+        solver = Solver(solver_path)
 
 
 if __name__ == '__main__':
